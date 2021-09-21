@@ -148,7 +148,7 @@ const userController = {
       //   pull friend to friends array to remove
       { $pull: { friends: params.friendId } },
       //   return updated list, run validators
-      { new: true, runValidators: true }
+      { new: true }
     )
       .then((dbUserData) => {
         //   if no user with id - return 404
