@@ -3,7 +3,7 @@ const router = require("express").Router();
 const apiRoutes = require("./api");
 
 // use middleware to simplify api routes
-router.use("./api", apiRoutes);
+router.use("/api", apiRoutes);
 
 // catch error - copied from NoSQL module project
 router.use((req, res) => {

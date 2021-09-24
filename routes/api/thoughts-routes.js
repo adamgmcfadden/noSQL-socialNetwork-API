@@ -1,6 +1,7 @@
-// import dependencies - express and thoughts-controller.js
+// import dependencies -- express and thoughts-controller
 const router = require("express").Router();
-// deconstruct thoughts-controller
+
+// deconstruct thoughtsController
 const {
   getAllThoughts,
   getSingleThought,
@@ -12,24 +13,23 @@ const {
 } = require("../../controllers/thoughts-controller");
 
 //  /api/thoughts routes
-
 router.route("/").get(getAllThoughts);
 
-// api/thoughts/userId routes
+//  /api/thoughts/userId routes
 router.route("/:userId").post(postThought);
 
-// api/thoughts/:thoughtsId routes
+//  /api/thoughts/:thoughtId routes
 router
   .route("/:id")
   .get(getSingleThought)
   .put(updateThought)
   .delete(deleteThought);
 
-//  api/thoughts/:thoughtsId/reactions routes
+//  /api/thoughts/:thoughtId/reactions routes
 router.route("/:thoughtId/reactions").post(postReaction);
 
-// /api/thoughts/:thoughtId/reactions/reactionId routes
+//  /api/thoughts/:thoughtId/reactions/reactionId routes
 router.route("/:thoughtId/reactions/:reactionId").delete(deleteReaction);
 
-// export to /index.js
-module.export = router;
+// export to ./index.js
+module.exports = router;
