@@ -18,7 +18,7 @@ const userController = {
   },
 
   //   get one user by _id + populate with thoughts and friends
-  getSingleUser(req, res) {
+  getSingleUser({ params }, res) {
     //   get single method - search params.id
     User.findOne({ _id: params.id })
       // populate with "thoughts", leave out __v
