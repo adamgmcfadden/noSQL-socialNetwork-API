@@ -25,9 +25,10 @@ An API for a social networking app where users can post thoughts, add friends to
 
 ## Usage
 
-- To install this application, clone the repository to your local station and install mongoose and express. `npm i express mongoose`
+To install this application, clone the repository to your local station and install mongoose and express. `npm i express mongoose`
 
-- To start the server and get the app working, use the command `npm start`. 
+To start the server and get the app working, use the command `npm start`. 
+
 
 _See instructional videos below for more information._
 
