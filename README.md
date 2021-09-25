@@ -1,4 +1,4 @@
-# noSQL-socialNetork-API
+# noSQL-socialNetwork-API
 
 ## Project Description
 
