@@ -1,4 +1,4 @@
-# noSQL-socialNetork-API
+# noSQL-socialNetwork-API
 
 ## Project Description
 
@@ -24,7 +24,21 @@ An API for a social networking app where users can post thoughts, add friends to
 - [Contact Information](#contact-information)
 
 ## Usage
-Click on link below to view app usage instructional video.
+
+To install this application, clone the repository to your local station and install mongoose and express. `npm i express mongoose`
+
+To start the server and get the app working, use the command `npm start`. 
+
+
+_See instructional videos below for more information._
+
+[Instructional Video - Part 1](https://watch.screencastify.com/v/UAwHfkuScZviJ9OgHukW)
+
+[Instructional Video - Part 2](https://watch.screencastify.com/v/GrYC4bYGn1s5pXOXDOAe)
+
+### Screenshot
+
+![Screenshot](https://user-images.githubusercontent.com/83710803/134752687-95808eab-36a6-4341-a20b-0b631126e4f7.png)
 
 ## Credits
 
